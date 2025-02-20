@@ -1,0 +1,40 @@
+{
+  "name": "alwddw repo",
+  "identifier": "com.alwddwgk.repo",
+  "iconURL": "https://alwddwgk.github.io/avatar.jpg",
+  "website": "alwddwgk.github.io",
+  "subtitle": "alwddw repo",
+  "description": "cracked ipa",
+  "tintColor": "#4B0082",
+  "featuredApps": [
+    "com.alwddw..repo"
+  ],
+  
+  "apps": [
+    {
+      "beta": true,
+      "name" : "TrollInstaller X",
+      "bundleIdentifier": "com.Alfie.TrollInstallerX",
+      "developerName" : "AlfieCG",
+      "subtitle": "Application for installing ipa applications without a signature using a CoreTrust error ",
+      "description": "",
+      "localizedDescription": "",
+      "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/refs/heads/main/Resources/Icon.png",
+      "tintColor": "",
+      "version": "1.0.3",
+      "versionDate" : "",
+      "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+      "size": "6.57MB",
+      "title": "TrollInstallerX",
+      "url": "",
+      "versions" : [
+        {
+          "version": "app version",
+          "date" : "date app was added",
+          "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+          "size": app size as number
+        }
+      ]
+    },
+  ],
+}
