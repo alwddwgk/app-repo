@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repo</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(207deg, #3d2163 0.0%, black 100.0%);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .repo-title {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 20px 40px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .glass-button {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 15px 30px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            width: 250px;
+        }
+
+        .glass-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .glass-button .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .glass-button .icon img {
+            width: 24px;
+            height: 24px;
+        }
+</style>
+</head>
+<body>
+    <div class="repo-title">
+        alwddw repo
+    </div>
+    <div class="container">
+        <a href="feather://install=https//raw.githubusercontent.com/alwddwgk/app-repo/refs/heads/main/repo.json" target="_blank" class="glass-button">
+            <div class="icon">
+                <img src="https://raw.githubusercontent.com/khcrysalis/Feather/refs/heads/main/Images/512%402x.png" alt="Feather">
+            </div>
+            Feather
+        </a>
+        <a href="altstore://install?url=https//raw.githubusercontent.com/alwddwgk/app-repo/refs/heads/main/repo.json" target="_blank" class="glass-button">
+            <div class="icon">
+                <img src="https://altstore.io/images/favicon.png" alt="Altstore">
+            </div>
+            AltStore
+        </a>
+        <a href="scarlet://install=https//raw.githubusercontent.com/alwddwgk/app-repo/refs/heads/main/repo.json" target="_blank" class="glass-button">
+            <div class="icon">
+                <img src="https://avatars.githubusercontent.com/u/175384029?v=4" alt="Scarlet">
+            </div>
+            Scarlet
+        </a>
+        <a href="gbox://Download/https://raw.githubusercontent.com/alwddwgk/app-repo/refs/heads/main/repo.json" target="_blank" class="glass-button">
+            <div class="icon">
+                <img src="https://gbox.run/Public/resources/icon256.png" alt="GBox">
+            </div>
+            GBox
+        </a>
+    </div>
+</body>
+</html>
